@@ -8,7 +8,7 @@
 
 from time import sleep #This delays functions by a prescribed amount of time
 from os import system #This was used to clear the screen, rather than have it cluttered
-from random import randint #Yields a psudo-random integer
+from random import randint #Yields a psuedo-random integer
 from sys import exit #This kills the program
 
 class char():
