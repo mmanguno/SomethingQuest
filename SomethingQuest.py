@@ -8,7 +8,7 @@
 
 from time import sleep #This delays functions by a prescribed amount of time
 from os import system #This was used to clear the screen, rather than have it cluttered
-from random import randint #Yields a psudo-random integer
+from random import randint #Yields a psuedo-random integer
 from sys import exit #This kills the program
 
 class char():
@@ -88,13 +88,16 @@ def mainMenu():
             what = 1
             system('cls')
             system('clear')
+            print("Version: 1.01")
             print("Made by Mitchell Manguno, 2013, for Dr. Jay Summet's CS 1301")
             print("Written in Python 3.3.2+ in Ubuntu Linux, in Vim")
             print(" ")
             itdoesntmatterwhatthisiscalled = input("Press Return or Enter when done")
             mainMenu()
         elif menuChoice =="4": #Kills the program
-            exit() #This kills the program.  It is better to use this than 'return', as, If I'm deep within a chain of functions, I want this to kill the whole thing rather than return None up a level
+            system('cls')
+            system('clear')
+            exit() #This kills the program.  It is better to use this than 'return', as, if I'm deep within a chain of functions, I want this to kill the whole thing rather than return None up a level
         elif menuChoice != "4" and menuChoice != "3" and menuChoice != "2" and menuChoice != "1":
             print(" ")
             print("Invalid Input. Try Again.")
