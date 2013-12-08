@@ -64,7 +64,7 @@ def mainMenu():
         print(" ")
         print("1. Start Game")
         print("2. Random Battle Arena")
-        print("3. Credits")
+        print("3. About")
         print("4. Quit")
         menuChoice = input("?   ")
         if menuChoice == "1": #Starts the main plot
@@ -84,7 +84,7 @@ def mainMenu():
                 if rbc == "N" or rbc == "n" or rbc == "no" or rbc == "No":
                     randomBattleIndex = 0
             mainMenu()
-        elif menuChoice == "3": #Credits
+        elif menuChoice == "3": #About
             what = 1
             system('cls')
             system('clear')
