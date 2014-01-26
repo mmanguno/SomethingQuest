@@ -15,7 +15,7 @@ plot and a "battle arena" where the user may "fight"
 against randomly-selected enemies.  Really, it's less   
 of a full game, and  more of an experiment. The         
 programming within makes a skeleton.  Just add          
-some more text and decisions to the plot(), and         
+some more text and decisions to the plot() function, and
 you've got yourself a full game.                                          
 --------------------------------------------------------
 NOTES                                                   
