@@ -5,7 +5,7 @@
 ---------------------------------                       
 Version: 1.1                                            
 Created by Mitchell Manguno, 2013                       
-Written in Python 3.3.2+ in Linux                       
+Written in Python 3.3.2+ in Ubuntu Linux                       
 ---------------------------------                       
 SYNOPSIS                                                
 --------------------------------------------------------
