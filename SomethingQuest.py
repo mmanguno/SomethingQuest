@@ -24,7 +24,7 @@ class char():
         self.magicka = ((2*intelligence) + 5)
 
 def sizzler():
-    """This is the 'sizzler' text, a kind of plot intro."""
+    """This is the 'sizzler' text, a kind of plot intro. Is not used in the completed game."""
     print("--------------------------------------------------------------------------------------")
     sleep(3)
     print("            Long in the many futures, when the cities of gray tumble and fall...")
